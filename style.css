@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 14px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Lato, sans-serif;
+  background-color: black;
+}
+.container {
+  width: 95.2vw;
+  height: 94.2vh;
+  /* margin: 20px 20px; */
+  margin: 2% 2%;
+  background-color: white;
+  border: 1px solid white;
+}
+.container1 {
+  width: 95.2vw;
+  height: 76.1vh;
+  display: flex;
+}
+.navbar {
+  width: 3vw;
+  height: 80vh;
+  background-color: rgb(223, 235, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidebar {
+  width: 87.8vw;
+  height: 76vh;
+}
+.sidebar1 {
+  width: 92vw;
+  height: 39vh;
+  background-color: rgb(68, 66, 66);
+}
+.sidebar1-items {
+  width: 74vw;
+  height: 38vh;
+  display: flex;
+  color: white;
+  /*padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+.sidebar1-image img {
+  width: 16vw;
+  height: 27vh;
+}
+.sidebar1-content {
+  margin-left: 4%;
+}
+.sidebar1-content1 {
+  font-size: 28px;
+}
+.sidebar1-content2 {
+  font-size: 1rem;
+  margin-top: 1%;
+}
+.sidebar1-content3 {
+  font-size: 1rem;
+}
+.sidebar1-icons {
+  display: flex;
+  margin-top: 15%;
+}
+.sidebar1-iconsA {
+  width: 6.5vw;
+  height: 3vh;
+}
+.sidebar1-iconsB {
+  width: 6.5vw;
+  height: 3vh;
+}
+.sidebar1-iconsC {
+  width: 6.5vw;
+  height: 3vh;
+}
+.sidebar2 {
+  width: 90vw;
+  height: 35vh;
+}
+.sidebar2-container {
+  width: 89vw;
+  height: 34vh;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 1rem;
+}
+.sidebar2-item1 {
+  width: 90vw;
+  height: 7.6vh;
+  display: flex;
+  padding-top: 1.5%;
+  padding-left: 1.5%;
+}
+.sidebar2-item1A {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item1B {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item1C {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item1D {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item1Da {
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 0.3%;
+}
+.sidebar2-item2 {
+  width: 90vw;
+  height: 7.6vh;
+  display: flex;
+  background-color: rgb(230, 220, 220);
+  padding-top: 1.5%;
+  padding-left: 1.5%;
+}
+.sidebar2-item2A {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item2B {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item2C {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item2D {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item2Da {
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 0.3%;
+}
+.sidebar2-item3 {
+  width: 90vw;
+  height: 7.6vh;
+  display: flex;
+  padding-top: 1.5%;
+  padding-left: 1.5%;
+}
+.sidebar2-item3A {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item3B {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item3C {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item3D {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item3Da {
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 0.3%;
+}
+.sidebar2-item4 {
+  width: 90vw;
+  height: 7.6vh;
+  display: flex;
+  background-color: rgb(230, 220, 220);
+  padding-top: 1.5%;
+  padding-left: 1.5%;
+}
+.sidebar2-item4A {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item4B {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item4C {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item4D {
+  width: 18.3vw;
+  height: 7.6vh;
+}
+.sidebar2-item4Da {
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 0.3%;
+}
+.container2 {
+  width: 95vw;
+  height: 13.6vh;
+  background-color: rgb(84, 84, 231);
+  margin-top: 2%;
+}
+.container2-items {
+  width: 95vw;
+  height: 13.6vh;
+  display: flex;
+}
+.container2-image img {
+  width: 4.3vw;
+  height: 10.6vh;
+  margin-top: 18%;
+  margin-left: 18%;
+}
+.container2-content {
+  width: 8.7vw;
+  height: 10.6vh;
+  margin-top: 1.7%;
+  margin-left: 1.5%;
+  color: white;
+  font-size: 1rem;
+}
+.container2-content1 {
+  width: 8.7vw;
+  height: 5.3vh;
+}
+.container2-content2 {
+  width: 8.7vw;
+  height: 5.3vh;
+}
+.container2-icons {
+  width: 36.6vw;
+  height: 12.17vh;
+  margin-left: 60%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .sidebar1-content1 {
+    font-size: 10px;
+  }
+  .sidebar1-content2 {
+    font-size: 0.4rem;
+  }
+  .sidebar1-content3 {
+    font-size: 0.4rem;
+  }
+  .sidebar2-container {
+    font-size: 0.4rem;
+  }
+  .sidebar2-item1Da {
+    font-size: 4px;
+  }
+  .container2-content {
+    font-size: 0.4rem;
+  }
+  .sidebar1-iconsA {
+    font-size: 0.4rem;
+  }
+  .sidebar1-image img {
+    width: 7vw;
+    height: 13vh;
+  }
+  .container2-image img {
+    width: 1.3vw;
+    height: 4.6vh;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .sidebar1-content1 {
+    font-size: 16px;
+  }
+  .sidebar1-content2 {
+    font-size: 0.6rem;
+  }
+  .sidebar1-content3 {
+    font-size: 0.6rem;
+  }
+  .sidebar2-container {
+    font-size: 0.6rem;
+  }
+  .sidebar2-item1Da {
+    font-size: 6px;
+  }
+  .container2-content {
+    font-size: 0.6rem;
+  }
+  .sidebar1-iconsA {
+    font-size: 0.6rem;
+  }
+  .sidebar1-image img {
+    width: 10vw;
+    height: 17vh;
+  }
+  .container2-image img {
+    width: 2.3vw;
+    height: 6.6vh;
+  }
+}
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1023) {
+  .sidebar1-content1 {
+    font-size: 22px;
+  }
+  .sidebar1-content2 {
+    font-size: 0.8rem;
+  }
+  .sidebar1-content3 {
+    font-size: 0.8rem;
+  }
+  .sidebar2-container {
+    font-size: 0.8rem;
+  }
+  .sidebar2-item1Da {
+    font-size: 8px;
+  }
+  .container2-content {
+    font-size: 0.8rem;
+  }
+  .sidebar1-iconsA {
+    font-size: 0.8rem;
+  }
+  .sidebar1-image img {
+    width: 13vw;
+    height: 22vh;
+  }
+  .container2-image img {
+    width: 3.3vw;
+    height: 8.6vh;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .sidebar1-content1 {
+    font-size: 28px;
+  }
+  .sidebar1-content2 {
+    font-size: 1rem;
+  }
+  .sidebar1-content3 {
+    font-size: 1rem;
+  }
+  .sidebar2-container {
+    font-size: 1rem;
+  }
+  .sidebar2-item1Da {
+    font-size: 10px;
+  }
+  .container2-content {
+    font-size: 1rem;
+  }
+  .sidebar1-iconsA {
+    font-size: 1rem;
+  }
+  .sidebar1-image img {
+    width: 16vw;
+    height: 27vh;
+  }
+  .container2-image img {
+    width: 4.3vw;
+    height: 10.6vh;
+  }
+}
